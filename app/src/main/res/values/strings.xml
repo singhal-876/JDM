@@ -1,3 +1,24 @@
 <resources>
     <string name="app_name">JDM</string>
+    <string name="sharedPreferences">Preference_file_name</string>
+    <string name="company_toyota">Company:- Toyota</string>
+    <string name="company_bmw">Company:- BMW</string>
+    <string name="horsepower_320hp">Horsepower:- 320hp</string>
+    <string name="torque_440nm">Torque:- 440nm</string>
+    <string name="top_speed_277km_hr">Top Speed:- 277km/hr</string>
+    <string name="company_nissan">Company:- Nissan</string>
+    <string name="horsepower_280hp">Horsepower:- 280hp</string>
+    <string name="torque_368nm">Torque:- 368nm</string>
+    <string name="top_speed_250km_hr">Top Speed:- 250km/hr</string>
+    <string name="horsepower_215hp">Horsepower:- 215hp</string>
+    <string name="torque_230nm">Torque:- 230nm</string>
+    <string name="top_speed_241km_hr">Top Speed:- 241km/hr</string>
+    <string name="company_mazda">Company:- Mazda</string>
+    <string name="horsepower_236hp">Horsepower:- 236hp</string>
+    <string name="torque_294nm">Torque:- 294nm</string>
+    <string name="top_speed_250_km_hr">Top Speed:- 250km/hr</string>
+    <string name="company_honda">Company:- Honda</string>
+    <string name="horsepower_270hp">Horsepower:- 270hp</string>
+    <string name="torque_284nm">Torque:- 284nm</string>
+    <string name="top_speed_261km_hr">Top Speed:- 261km/hr</string>
 </resources>
