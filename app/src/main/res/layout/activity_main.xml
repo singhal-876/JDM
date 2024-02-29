@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/supra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/supra"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/Company_T"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Company:- Toyota"
+                android:layout_margin="5dp"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:layout_toRightOf="@id/supra"/>
+
+            <TextView
+                android:id="@+id/t_hp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Horsepower:- 320hp"
+                android:layout_margin="5dp"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:layout_toRightOf="@id/supra"
+                android:layout_below="@id/Company_T"/>
+
+            <TextView
+                android:id="@+id/t_tq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Torque:- 440nm"
+                android:layout_margin="5dp"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:layout_toRightOf="@id/supra"
+                android:layout_below="@id/t_hp"/>
+
+            <TextView
+                android:id="@+id/t_ts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Top Speed:- 277km/hr"
+                android:layout_margin="5dp"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:layout_toRightOf="@id/supra"
+                android:layout_below="@id/t_tq"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/gtr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/gtr"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/Company_N"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Company:- Nissan"
+                android:layout_marginTop="13dp"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:layout_toRightOf="@id/gtr"/>
+
+            <TextView
+                android:id="@+id/n_hp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Horsepower:- 280hp"
+                android:layout_margin="5dp"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:layout_toRightOf="@id/gtr"
+                android:layout_below="@id/Company_N"/>
+
+            <TextView
+                android:id="@+id/n_tq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Torque:- 368nm"
+                android:layout_margin="5dp"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:layout_toRightOf="@id/gtr"
+                android:layout_below="@id/n_hp"/>
+
+            <TextView
+                android:id="@+id/n_ts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Top Speed:- 250km/hr"
+                android:layout_margin="5dp"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:layout_toRightOf="@id/gtr"
+                android:layout_below="@id/n_tq"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/bmw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bmw"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/Company_B"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Company:- BMW"
+                android:layout_marginTop="7dp"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:layout_toRightOf="@id/bmw"/>
+
+            <TextView
+                android:id="@+id/b_hp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Horsepower:- 215hp"
+                android:layout_margin="4dp"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:layout_toRightOf="@id/bmw"
+                android:layout_below="@id/Company_B"/>
+
+            <TextView
+                android:id="@+id/b_tq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Torque:- 230nm"
+                android:layout_margin="4dp"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:layout_toRightOf="@id/bmw"
+                android:layout_below="@id/b_hp"/>
+
+            <TextView
+                android:id="@+id/b_ts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Top Speed:- 241km/hr"
+                android:layout_margin="4dp"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:layout_toRightOf="@id/bmw"
+                android:layout_below="@id/b_tq"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/mazda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mazda"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/Company_M"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Company:- Mazda"
+                android:layout_margin="4dp"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:layout_toRightOf="@id/mazda"/>
+
+            <TextView
+                android:id="@+id/m_hp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Horsepower:- 236hp"
+                android:layout_margin="4dp"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:layout_toRightOf="@id/mazda"
+                android:layout_below="@id/Company_M"/>
+
+            <TextView
+                android:id="@+id/m_tq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Torque:- 294nm"
+                android:layout_margin="4dp"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:layout_toRightOf="@id/mazda"
+                android:layout_below="@id/m_hp"/>
+
+            <TextView
+                android:id="@+id/m_ts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Top Speed:- 250km/hr"
+                android:layout_margin="4dp"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:layout_toRightOf="@id/mazda"
+                android:layout_below="@id/m_tq"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/honda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/honda"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/Company_H"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Company:- Honda"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:layout_toRightOf="@id/honda"/>
+
+            <TextView
+                android:id="@+id/h_hp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Horsepower:- 270hp"
+                android:layout_margin="4dp"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:layout_toRightOf="@id/honda"
+                android:layout_below="@id/Company_H"/>
+
+            <TextView
+                android:id="@+id/h_tq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Torque:- 284nm"
+                android:layout_margin="4dp"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:layout_toRightOf="@id/honda"
+                android:layout_below="@id/h_hp"/>
+
+            <TextView
+                android:id="@+id/h_ts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Top Speed:- 261km/hr"
+                android:layout_margin="4dp"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:layout_toRightOf="@id/honda"
+                android:layout_below="@id/h_tq"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>
