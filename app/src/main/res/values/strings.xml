@@ -21,4 +21,9 @@
     <string name="horsepower_270hp">Horsepower:- 270hp</string>
     <string name="torque_284nm">Torque:- 284nm</string>
     <string name="top_speed_261km_hr">Top Speed:- 261km/hr</string>
+    <string name="enter_you_phone_number">Enter you phone number</string>
+    <string name="enter_you_password">Enter you password</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="register_yourself_here">Register Yourself here !!!</string>
 </resources>
