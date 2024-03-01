@@ -21,7 +21,6 @@ class LoginActivity : AppCompatActivity(){
         if (isLoggedIn){
             val intent=Intent(this,MainActivity::class.java)
             startActivity(intent)
-            finish()
         }
 
         val login=findViewById<Button>(R.id.login_button)
