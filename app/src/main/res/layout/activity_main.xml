@@ -295,6 +295,24 @@
 
         </RelativeLayout>
 
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/logout_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/logout"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:layout_alignParentBottom="true"
+                android:background="#228cdc"
+                android:layout_marginLeft="140dp"
+                android:layout_marginRight="140dp"/>
+
+        </RelativeLayout>
+
     </LinearLayout>
 
 </ScrollView>
