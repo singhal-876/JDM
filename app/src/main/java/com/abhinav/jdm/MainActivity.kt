@@ -21,6 +21,8 @@ class MainActivity : AppCompatActivity() {
 
         val logout=findViewById<Button>(R.id.logout_button)
         logout.setOnClickListener {
+            sharedPreferences.edit().putBoolean("isLoggedIn", false).apply()
+            sharedPreferences.edit().remove("title").apply()
             Toast.makeText(this,"You have been logged out successfully",Toast.LENGTH_SHORT).show()
             val intent=Intent(this@MainActivity,LoginActivity::class.java)
             startActivity(intent)
